@@ -1,0 +1,84 @@
+/* media query mixin
+===================== */
+@font-face {
+  src: url(../webfonts/fa-solid-900.ttf);
+  font-family: "fontawesome"; }
+
+@font-face {
+  src: url(https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap);
+  font-family: "Rubik Mono One", sans-serif; }
+
+body {
+  overflow-x: hidden;
+  font-family: "Rubik Mono One", sans-serif; }
+
+button:focus {
+  box-shadow: none !important; }
+
+.text-facebook {
+  color: #4267b2; }
+
+.text-twitter {
+  color: #1da1f2; }
+
+.text-instagram {
+  color: transparent;
+  background: #ffdb80;
+  background-image: linear-gradient(45deg, #ffdb80 0%, #fcb045 10%, #f77636 18%, #f56342 28%, #fd1c1c 39%, #e2326c 49%, #c14482 62%, #843bb5 75%, #5851db 88%, #414fe6 100%);
+  background-clip: text;
+  -webkit-background-clip: text; }
+
+/*---------------------------------------------------------------------------------------------*/
+/*--------------------------------------------header ------------------------------------------*/
+/* 4d7184*/
+header.top-header { 
+  background: #343633; }
+  header.top-header h1 {
+    color: #e0e0e0; }
+    header.top-header h1 span.job-title {
+      font-size: 1.2rem;
+      letter-spacing: 0.035rem; }
+  header.top-header address {
+    color: #d2d6e0; }
+    header.top-header address a {
+      color: #7eb6f3; }
+
+/*---------------------------------------------------------------------------------------------*/
+section {
+  font-size: 0.92rem;
+  font-family: Lato; }
+  section header h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase; }
+  section h3 {
+    font-size: 1.25rem;
+    font-weight: 500; }
+  section.experience h3 a {
+    margin-left: 1rem;
+    font-size: 1rem;
+    align-self: center; }
+
+/*---------------------------------------------------------------------------------------------*/
+.specialties {
+  font-weight: 600; }
+
+.lynda-link {
+  position: relative;
+  top: -8px;
+  text-decoration: none !important;
+  font-size: 1.5rem;
+  color: #000; }
+  .lynda-link .r-mark {
+    position: absolute;
+    top: -2px;
+    left: 107px;
+    font-size: 0.8rem; }
+  .lynda-link .from-linkedin {
+    position: absolute;
+    bottom: -3px;
+    left: 42px;
+    font-size: 0.585rem;
+    font-weight: 600; }
+
+/*# sourceMappingURL=style.css.map */
